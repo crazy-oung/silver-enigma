@@ -34,11 +34,9 @@ public class problemA {
 	static int[] K = null;
 	
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
 		Scanner in = new Scanner(System.in);
 		
-		for(int T = Integer.parseInt(br.readLine()),t=0; t< T; t++) {
+		for(int T = Integer.valueOf(in.nextLine()).intValue(),t=0; t< T; t++) {
 			
 			int N = Integer.valueOf(in.nextLine()).intValue();
 			K = new int[N];
