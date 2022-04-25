@@ -90,8 +90,8 @@ public class BFS {
 	        Scanner sc = new Scanner(System.in);
 
 	        // N, M을 공백을 기준으로 구분하여 입력 받기
-	        n = sc.nextInt();
-	        m = sc.nextInt();
+	        int n = sc.nextInt();
+	        int m = sc.nextInt();
 	        sc.nextLine(); // 버퍼 지우기
 
 	        // 2차원 리스트의 맵 정보 입력 받기
